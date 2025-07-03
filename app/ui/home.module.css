@@ -1,0 +1,55 @@
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+body {
+      background: #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      perspective: 1000px;
+    }
+.scene {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.1s ease-out;
+    }
+
+.face {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      font-weight: bold;
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+      opacity: 0.9;
+    }
+
+    .front  { background: red;    transform: translateZ(50px); }
+    .back   { background: blue;   transform: rotateY(180deg) translateZ(50px); }
+    .right  { background: green;  transform: rotateY(90deg) translateZ(50px); }
+    .left   { background: yellow; transform: rotateY(-90deg) translateZ(50px); }
+    .top    { background: purple; transform: rotateX(90deg) translateZ(50px); }
+    .bottom { background: orange; transform: rotateX(-90deg) translateZ(50px); }
+
+    .bitcountGridDouble {
+  font-family: "Bitcount Grid Double", system-ui, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}

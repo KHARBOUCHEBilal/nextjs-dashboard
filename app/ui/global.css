@@ -1,6 +1,9 @@
+/* Ensure Tailwind CSS is processed by PostCSS or the appropriate build tool */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 input[type='number'] {
   -moz-appearance: textfield;
