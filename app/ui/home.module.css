@@ -6,15 +6,6 @@
     border-right: 20px solid transparent;
 }
 
-body {
-      background: #eee;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      perspective: 1000px;
-    }
 .scene {
       width: 100px;
       height: 100px;
