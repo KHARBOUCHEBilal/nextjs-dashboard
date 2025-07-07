@@ -8,9 +8,9 @@ import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton } from '@/a
 
 export default async function Page() {
     const {
-        totalPaidInvoices,
-        totalPendingInvoices,
-        numberOfInvoices,
+        // totalPaidInvoices,
+        // totalPendingInvoices,
+        // numberOfInvoices,
         numberOfCustomers,
     } = await fetchCardData();
     console.log('Number of Customers:', numberOfCustomers);
