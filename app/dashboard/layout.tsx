@@ -3,6 +3,8 @@ import SideNav from "../ui/dashboard/sidenav";
 import '@/app/ui/global.css';
 import { inter } from "@/app/ui/fonts";
 
+
+
 export const experimental_ppr = true; // Enable Partial Page Rendering (PPR)
 
 export default function Layout({ children } : { children: React.ReactNode }) {
